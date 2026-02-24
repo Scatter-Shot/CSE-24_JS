@@ -47,4 +47,8 @@ var a = 5;
 var b = "5";
 console.log(a == b);    // true
 console.log(a === b);   // false
-
+            var count;
+            document.write("starting loop"+"<br/>");
+            for(count=0; count<10; count++){
+                document.write(count+"<br/>");
+            }
