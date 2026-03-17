@@ -43,7 +43,7 @@ example: arithmetic: +, -, *, /, %, ++, --;
 assignment: =, +=, -=, *=, /=, %=;
 comparison: ==, ===, !=, !==, >, <, >=, <=;*/
 //note = = is used for comparison of values and == = is used for comparison of values and data types. For example, 5 == "5" will return true because the values are equal, but 5 === "5" will return false because the data types are different.
-var a = 5;
+//var a = 5;
 var b = "5";
 console.log(a == b);    // true
 console.log(a === b);   // false
